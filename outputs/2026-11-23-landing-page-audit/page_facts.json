@@ -1,0 +1,38 @@
+{
+  "headline": "The all-in-one practice platform for modern firms",
+  "ad_promise": "Stop chasing clients for documents this tax season",
+  "promise_terms_found_above_fold": [
+    "clients"
+  ],
+  "message_match_share": 0.17,
+  "distinct_ctas": 3,
+  "cta_labels": [
+    "Book a demo",
+    "Start a free trial",
+    "Turn on Client Portal"
+  ],
+  "form_fields": 9,
+  "form_field_names": [
+    "First name",
+    "Last name",
+    "Work email",
+    "Phone",
+    "Firm name",
+    "Firm size",
+    "Job title",
+    "Current software",
+    "How did you hear about us"
+  ],
+  "reading_grade_level": 16.8,
+  "body_word_count": 54,
+  "banned_words_found": [
+    "revolutionary"
+  ],
+  "has_approved_proof_point": false,
+  "thresholds": {
+    "message_match_share_min": 0.5,
+    "distinct_ctas_max": 1,
+    "form_fields_max": 5,
+    "reading_grade_level_max": 9
+  }
+}

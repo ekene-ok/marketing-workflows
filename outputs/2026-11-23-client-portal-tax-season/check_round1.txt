@@ -1,0 +1,10 @@
+A1-v1: PASS
+A1-v2: PASS
+A2-v1: PASS
+A2-v2: FAIL  banned word: 'seamless'; unapproved number: 10
+A3-v1: PASS
+A3-v2: PASS
+A4-v1: PASS
+A4-v2: FAIL  headline uses an exclamation mark; mentions security without 'SOC 2 Type II'
+A5-v1: PASS
+A5-v2: PASS

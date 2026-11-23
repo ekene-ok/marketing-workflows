@@ -1,0 +1,6 @@
+[
+ {"id": "S1-v1", "segment": "Core customers without Smart Intake", "format": "in_app", "fields": {"title": "Turn bank statements into reviewed transactions", "body": "Smart Intake now reads client bank statements and pulls transactions into a review screen. AI-assisted, and your team confirms each one.", "button": "Try free for 30 days"}},
+ {"id": "S1-v2", "segment": "Core customers without Smart Intake", "format": "in_app", "fields": {"title": "Less typing from bank statements", "body": "Smart Intake now extracts transactions from client bank statements for your team to review and confirm. Try it free for 30 days.", "button": "Start free trial"}},
+ {"id": "S2-v1", "segment": "Current Smart Intake users", "format": "in_app", "fields": {"title": "Smart Intake now reads bank statements", "body": "Upload a client's bank statement and Smart Intake pulls the transactions into a review screen. Your team confirms each one before it is saved.", "button": "See how it works"}},
+ {"id": "S2-v2", "segment": "Current Smart Intake users", "format": "in_app", "fields": {"title": "New: bank statements, ready for review", "body": "Bank statements from bookkeeping clients now go straight to a review screen with transactions extracted. Confirm, edit or reject each line.", "button": "Try it now"}}
+]

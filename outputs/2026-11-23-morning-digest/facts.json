@@ -1,0 +1,31 @@
+{
+  "date": "2027-01-21",
+  "totals": {
+    "spend": 1678.03,
+    "conversions": 18,
+    "campaigns": 5
+  },
+  "anomalies": [
+    {
+      "campaign": "Search | Practice management software",
+      "channel": "Paid search",
+      "metric": "conversions",
+      "latest": 0,
+      "typical": 4.0,
+      "change_pct": -100.0,
+      "robust_z": null,
+      "rule": "zero conversions while spending",
+      "spend_latest": 654.32
+    },
+    {
+      "campaign": "LinkedIn | Client Portal cross-sell",
+      "channel": "LinkedIn",
+      "metric": "cpc",
+      "latest": 18.26,
+      "typical": 9.66,
+      "change_pct": 89.1,
+      "robust_z": 29.3
+    }
+  ],
+  "flagged_campaigns": 2
+}

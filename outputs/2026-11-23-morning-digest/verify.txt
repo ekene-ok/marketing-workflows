@@ -1,0 +1,1 @@
+PASS: every number traces to the facts file

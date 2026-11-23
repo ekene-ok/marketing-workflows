@@ -1,0 +1,12 @@
+[
+ {"id": "A1-v1", "angle": 1, "format": "linkedin", "fields": {"intro": "Tax season starts soon. Firms using Client Portal collect client documents 4 days faster, with reminders doing the chasing for you.", "headline": "Stop chasing clients for documents this tax season"}},
+ {"id": "A1-v2", "angle": 1, "format": "linkedin", "fields": {"intro": "Clients upload documents to one secure place and reminders go out automatically. SOC 2 Type II certified.", "headline": "Spend busy season on client work instead of follow-ups"}},
+ {"id": "A2-v1", "angle": 2, "format": "linkedin", "fields": {"intro": "Every email asking a client for a missing document is time your team cannot bill. Client Portal sends the reminders for you.", "headline": "Get your team's follow-up hours back"}},
+ {"id": "A2-v2", "angle": 2, "format": "linkedin", "fields": {"intro": "Save 10 hours a week in tax season with seamless document collection.", "headline": "More capacity this tax season, same team"}},
+ {"id": "A3-v1", "angle": 3, "format": "linkedin", "fields": {"intro": "Clients get one simple link to upload documents and sign engagement letters. No more digging through email threads.", "headline": "Give clients one place to send everything"}},
+ {"id": "A3-v2", "angle": 3, "format": "linkedin", "fields": {"intro": "A clean portal makes your firm look as organised as it is. Clients upload documents and e-sign from any device.", "headline": "Look as organised as you are"}},
+ {"id": "A4-v1", "angle": 4, "format": "linkedin", "fields": {"intro": "Tax documents in email inboxes are a risk. Client Portal keeps them in one secure place, and Tallyroot is SOC 2 Type II certified.", "headline": "Stop accepting tax documents by email"}},
+ {"id": "A4-v2", "angle": 4, "format": "linkedin", "fields": {"intro": "Give clients an encrypted, secure way to share sensitive files.", "headline": "Bank-level security for client files!"}},
+ {"id": "A5-v1", "angle": 5, "format": "linkedin", "fields": {"intro": "You already use Tallyroot. Turn on Client Portal in a few clicks and use it free until April 30, then $12 per user per month.", "headline": "Turn on Client Portal free until April 30"}},
+ {"id": "A5-v2", "angle": 5, "format": "linkedin", "fields": {"intro": "No new tool to learn. Client Portal works inside the Tallyroot account your team already uses, free until April 30.", "headline": "Already on Tallyroot? Turn on Client Portal"}}
+]
