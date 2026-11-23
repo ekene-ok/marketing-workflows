@@ -1,0 +1,106 @@
+date,campaign,channel,spend,clicks,conversions
+2027-01-01,Search | Brand,Paid search,220.45,97,6
+2027-01-01,Search | Practice management software,Paid search,628.56,101,2
+2027-01-01,LinkedIn | Client Portal cross-sell,LinkedIn,501.51,59,1
+2027-01-01,LinkedIn | Tax season webinar,LinkedIn,312.25,39,2
+2027-01-01,Email | Smart Intake trial,Email,41.98,106,6
+2027-01-02,Search | Brand,Paid search,208.51,109,12
+2027-01-02,Search | Practice management software,Paid search,566.26,93,6
+2027-01-02,LinkedIn | Client Portal cross-sell,LinkedIn,437.02,45,0
+2027-01-02,LinkedIn | Tax season webinar,LinkedIn,286.62,35,0
+2027-01-02,Email | Smart Intake trial,Email,41.31,97,4
+2027-01-03,Search | Brand,Paid search,224.59,105,13
+2027-01-03,Search | Practice management software,Paid search,614.59,101,0
+2027-01-03,LinkedIn | Client Portal cross-sell,LinkedIn,495.2,54,2
+2027-01-03,LinkedIn | Tax season webinar,LinkedIn,311.29,37,2
+2027-01-03,Email | Smart Intake trial,Email,41.47,100,3
+2027-01-04,Search | Brand,Paid search,216.69,98,7
+2027-01-04,Search | Practice management software,Paid search,653.17,107,8
+2027-01-04,LinkedIn | Client Portal cross-sell,LinkedIn,494.18,53,0
+2027-01-04,LinkedIn | Tax season webinar,LinkedIn,296.8,35,1
+2027-01-04,Email | Smart Intake trial,Email,36.22,86,4
+2027-01-05,Search | Brand,Paid search,206.71,91,8
+2027-01-05,Search | Practice management software,Paid search,689.99,119,2
+2027-01-05,LinkedIn | Client Portal cross-sell,LinkedIn,487.03,46,2
+2027-01-05,LinkedIn | Tax season webinar,LinkedIn,289.65,34,2
+2027-01-05,Email | Smart Intake trial,Email,38.21,93,3
+2027-01-06,Search | Brand,Paid search,210.3,97,13
+2027-01-06,Search | Practice management software,Paid search,631.49,106,12
+2027-01-06,LinkedIn | Client Portal cross-sell,LinkedIn,474.51,54,0
+2027-01-06,LinkedIn | Tax season webinar,LinkedIn,337.95,42,1
+2027-01-06,Email | Smart Intake trial,Email,43.18,93,2
+2027-01-07,Search | Brand,Paid search,227.87,114,11
+2027-01-07,Search | Practice management software,Paid search,647.37,94,3
+2027-01-07,LinkedIn | Client Portal cross-sell,LinkedIn,467.91,48,0
+2027-01-07,LinkedIn | Tax season webinar,LinkedIn,314.33,40,2
+2027-01-07,Email | Smart Intake trial,Email,43.17,102,4
+2027-01-08,Search | Brand,Paid search,210.78,104,12
+2027-01-08,Search | Practice management software,Paid search,618.98,97,6
+2027-01-08,LinkedIn | Client Portal cross-sell,LinkedIn,424.6,44,1
+2027-01-08,LinkedIn | Tax season webinar,LinkedIn,310.4,40,0
+2027-01-08,Email | Smart Intake trial,Email,41.82,94,6
+2027-01-09,Search | Brand,Paid search,225.09,104,14
+2027-01-09,Search | Practice management software,Paid search,647.76,100,1
+2027-01-09,LinkedIn | Client Portal cross-sell,LinkedIn,512.7,56,0
+2027-01-09,LinkedIn | Tax season webinar,LinkedIn,311.13,37,3
+2027-01-09,Email | Smart Intake trial,Email,40.22,103,5
+2027-01-10,Search | Brand,Paid search,225.12,107,15
+2027-01-10,Search | Practice management software,Paid search,674.09,110,5
+2027-01-10,LinkedIn | Client Portal cross-sell,LinkedIn,463.77,47,1
+2027-01-10,LinkedIn | Tax season webinar,LinkedIn,284.78,32,0
+2027-01-10,Email | Smart Intake trial,Email,40.02,110,9
+2027-01-11,Search | Brand,Paid search,226.32,104,6
+2027-01-11,Search | Practice management software,Paid search,678.29,103,5
+2027-01-11,LinkedIn | Client Portal cross-sell,LinkedIn,482.32,50,0
+2027-01-11,LinkedIn | Tax season webinar,LinkedIn,311.37,41,0
+2027-01-11,Email | Smart Intake trial,Email,37.38,91,6
+2027-01-12,Search | Brand,Paid search,213.19,97,8
+2027-01-12,Search | Practice management software,Paid search,643.44,116,5
+2027-01-12,LinkedIn | Client Portal cross-sell,LinkedIn,459.91,53,0
+2027-01-12,LinkedIn | Tax season webinar,LinkedIn,314.86,35,0
+2027-01-12,Email | Smart Intake trial,Email,39.37,111,8
+2027-01-13,Search | Brand,Paid search,214.34,100,11
+2027-01-13,Search | Practice management software,Paid search,583.29,92,3
+2027-01-13,LinkedIn | Client Portal cross-sell,LinkedIn,508.43,48,1
+2027-01-13,LinkedIn | Tax season webinar,LinkedIn,316.94,37,3
+2027-01-13,Email | Smart Intake trial,Email,41.78,93,9
+2027-01-14,Search | Brand,Paid search,192.71,95,10
+2027-01-14,Search | Practice management software,Paid search,654.17,105,4
+2027-01-14,LinkedIn | Client Portal cross-sell,LinkedIn,494.5,52,3
+2027-01-14,LinkedIn | Tax season webinar,LinkedIn,306.26,41,4
+2027-01-14,Email | Smart Intake trial,Email,35.43,92,6
+2027-01-15,Search | Brand,Paid search,222.19,105,11
+2027-01-15,Search | Practice management software,Paid search,685.2,106,8
+2027-01-15,LinkedIn | Client Portal cross-sell,LinkedIn,449.55,49,1
+2027-01-15,LinkedIn | Tax season webinar,LinkedIn,294.91,36,2
+2027-01-15,Email | Smart Intake trial,Email,38.4,94,6
+2027-01-16,Search | Brand,Paid search,213.23,112,9
+2027-01-16,Search | Practice management software,Paid search,645.85,108,8
+2027-01-16,LinkedIn | Client Portal cross-sell,LinkedIn,443.17,45,0
+2027-01-16,LinkedIn | Tax season webinar,LinkedIn,267.39,35,0
+2027-01-16,Email | Smart Intake trial,Email,43.92,114,6
+2027-01-17,Search | Brand,Paid search,209.89,105,10
+2027-01-17,Search | Practice management software,Paid search,672.42,104,4
+2027-01-17,LinkedIn | Client Portal cross-sell,LinkedIn,555.99,54,1
+2027-01-17,LinkedIn | Tax season webinar,LinkedIn,284.25,34,2
+2027-01-17,Email | Smart Intake trial,Email,42.23,100,3
+2027-01-18,Search | Brand,Paid search,224.49,99,13
+2027-01-18,Search | Practice management software,Paid search,688.96,106,2
+2027-01-18,LinkedIn | Client Portal cross-sell,LinkedIn,463.7,50,1
+2027-01-18,LinkedIn | Tax season webinar,LinkedIn,310.2,39,1
+2027-01-18,Email | Smart Intake trial,Email,40.89,120,9
+2027-01-19,Search | Brand,Paid search,241.25,103,11
+2027-01-19,Search | Practice management software,Paid search,555.61,83,1
+2027-01-19,LinkedIn | Client Portal cross-sell,LinkedIn,476.37,49,2
+2027-01-19,LinkedIn | Tax season webinar,LinkedIn,291.99,35,3
+2027-01-19,Email | Smart Intake trial,Email,40.76,101,9
+2027-01-20,Search | Brand,Paid search,212.78,105,16
+2027-01-20,Search | Practice management software,Paid search,678.09,103,4
+2027-01-20,LinkedIn | Client Portal cross-sell,LinkedIn,483.46,50,1
+2027-01-20,LinkedIn | Tax season webinar,LinkedIn,289.3,36,2
+2027-01-20,Email | Smart Intake trial,Email,41.05,106,9
+2027-01-21,Search | Brand,Paid search,224.81,97,10
+2027-01-21,Search | Practice management software,Paid search,654.32,107,0
+2027-01-21,LinkedIn | Client Portal cross-sell,LinkedIn,456.62,25,1
+2027-01-21,LinkedIn | Tax season webinar,LinkedIn,299.23,38,2
+2027-01-21,Email | Smart Intake trial,Email,43.05,103,5
