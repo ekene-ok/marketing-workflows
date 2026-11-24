@@ -1,0 +1,211 @@
+label,case,group,variant,flagged,problems
+before,clean,Clean copy,A1-v1,False,
+before,clean,Clean copy,A1-v2,False,
+before,clean,Clean copy,A2-v1,False,
+before,clean,Clean copy,A2-v2,False,
+before,clean,Clean copy,A3-v1,False,
+before,clean,Clean copy,A3-v2,False,
+before,clean,Clean copy,A4-v1,False,
+before,clean,Clean copy,A4-v2,False,
+before,clean,Clean copy,A5-v1,False,
+before,clean,Clean copy,A5-v2,False,
+before,clean,Clean copy,S1-v1,False,
+before,clean,Clean copy,S1-v2,False,
+before,clean,Clean copy,S2-v1,False,
+before,clean,Clean copy,S2-v2,False,
+before,too_long,Built to catch,A1-v1,True,intro is 167 characters (limit 150)
+before,too_long,Built to catch,A1-v2,True,intro is 177 characters (limit 150)
+before,too_long,Built to catch,A2-v1,True,intro is 160 characters (limit 150)
+before,too_long,Built to catch,A2-v2,True,intro is 154 characters (limit 150)
+before,too_long,Built to catch,A3-v1,True,intro is 151 characters (limit 150)
+before,too_long,Built to catch,A3-v2,True,intro is 183 characters (limit 150)
+before,too_long,Built to catch,A4-v1,True,intro is 166 characters (limit 150)
+before,too_long,Built to catch,A4-v2,True,intro is 173 characters (limit 150)
+before,too_long,Built to catch,A5-v1,True,intro is 161 characters (limit 150)
+before,too_long,Built to catch,A5-v2,True,intro is 151 characters (limit 150)
+before,too_long,Built to catch,S1-v1,True,body is 172 characters (limit 160)
+before,too_long,Built to catch,S1-v2,True,body is 164 characters (limit 160)
+before,too_long,Built to catch,S2-v1,True,body is 178 characters (limit 160)
+before,too_long,Built to catch,S2-v2,True,body is 175 characters (limit 160)
+before,banned_word,Built to catch,A1-v1,True,intro is 155 characters (limit 150); banned word: 'seamless'
+before,banned_word,Built to catch,A1-v2,True,banned word: 'revolutionary'
+before,banned_word,Built to catch,A2-v1,True,intro is 153 characters (limit 150); banned word: 'game-changing'
+before,banned_word,Built to catch,A2-v2,True,banned word: 'best-in-class'
+before,banned_word,Built to catch,A3-v1,True,banned word: 'cutting-edge'
+before,banned_word,Built to catch,A3-v2,True,banned word: 'supercharge'
+before,banned_word,Built to catch,A4-v1,True,intro is 152 characters (limit 150); banned word: 'unlock'
+before,banned_word,Built to catch,A4-v2,True,banned word: 'guaranteed'
+before,banned_word,Built to catch,A5-v1,True,banned word: 'risk-free'
+before,banned_word,Built to catch,A5-v2,True,banned word: 'act now'
+before,banned_word,Built to catch,S1-v1,True,body is 163 characters (limit 160); banned word: 'last chance'
+before,banned_word,Built to catch,S1-v2,True,banned word: 'game changer'
+before,banned_word,Built to catch,S2-v1,True,body is 166 characters (limit 160); banned word: 'seamless'
+before,banned_word,Built to catch,S2-v2,True,body is 168 characters (limit 160); banned word: 'revolutionary'
+before,invented_number,Built to catch,A1-v1,True,intro is 153 characters (limit 150); unapproved number: 10
+before,invented_number,Built to catch,A1-v2,True,unapproved number: 500
+before,invented_number,Built to catch,A2-v1,True,unapproved number: 3
+before,invented_number,Built to catch,A2-v2,True,unapproved number: 70
+before,invented_number,Built to catch,A3-v1,True,unapproved number: 4.8
+before,invented_number,Built to catch,A3-v2,True,unapproved number: 15
+before,invented_number,Built to catch,A4-v1,True,intro is 152 characters (limit 150); unapproved number: 10
+before,invented_number,Built to catch,A4-v2,True,unapproved number: 500
+before,invented_number,Built to catch,A5-v1,True,unapproved number: 3
+before,invented_number,Built to catch,A5-v2,True,unapproved number: 70
+before,invented_number,Built to catch,S1-v1,True,body is 162 characters (limit 160); unapproved number: 4.8
+before,invented_number,Built to catch,S1-v2,True,unapproved number: 15
+before,invented_number,Built to catch,S2-v1,True,body is 164 characters (limit 160); unapproved number: 10
+before,invented_number,Built to catch,S2-v2,True,unapproved number: 500
+before,dash,Built to catch,A1-v1,True,intro is 156 characters (limit 150); contains an em or en dash
+before,dash,Built to catch,A1-v2,True,contains an em or en dash
+before,dash,Built to catch,A2-v1,True,contains an em or en dash
+before,dash,Built to catch,A2-v2,True,contains an em or en dash
+before,dash,Built to catch,A3-v1,True,contains an em or en dash
+before,dash,Built to catch,A3-v2,True,contains an em or en dash
+before,dash,Built to catch,A4-v1,True,intro is 155 characters (limit 150); contains an em or en dash
+before,dash,Built to catch,A4-v2,True,contains an em or en dash
+before,dash,Built to catch,A5-v1,True,contains an em or en dash
+before,dash,Built to catch,A5-v2,True,contains an em or en dash
+before,dash,Built to catch,S1-v1,True,body is 161 characters (limit 160); contains an em or en dash
+before,dash,Built to catch,S1-v2,True,contains an em or en dash
+before,dash,Built to catch,S2-v1,True,body is 167 characters (limit 160); contains an em or en dash
+before,dash,Built to catch,S2-v2,True,body is 164 characters (limit 160); contains an em or en dash
+before,exclamation,Built to catch,A1-v1,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A1-v2,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A2-v1,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A2-v2,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A3-v1,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A3-v2,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A4-v1,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A4-v2,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A5-v1,True,headline uses an exclamation mark
+before,exclamation,Built to catch,A5-v2,True,headline uses an exclamation mark
+before,exclamation,Built to catch,S1-v1,True,title is 54 characters (limit 50); title uses an exclamation mark
+before,exclamation,Built to catch,S1-v2,True,title uses an exclamation mark
+before,exclamation,Built to catch,S2-v1,True,title uses an exclamation mark
+before,exclamation,Built to catch,S2-v2,True,title uses an exclamation mark
+before,security_wording,Built to catch,A1-v1,True,intro is 155 characters (limit 150); mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A1-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A2-v1,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A2-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A3-v1,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A3-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A4-v1,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A4-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A5-v1,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,A5-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,S1-v1,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,S1-v2,True,mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,S2-v1,True,body is 166 characters (limit 160); mentions security without 'SOC 2 Type II'
+before,security_wording,Built to catch,S2-v2,True,body is 163 characters (limit 160); mentions security without 'SOC 2 Type II'
+before,ai_wording,Built to catch,A1-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A1-v2,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A2-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A2-v2,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A3-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A3-v2,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A4-v1,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A4-v2,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A5-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,A5-v2,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,S1-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,S1-v2,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,S2-v1,True,mentions AI without 'AI-assisted'
+before,ai_wording,Built to catch,S2-v2,True,mentions AI without 'AI-assisted'
+before,overstated_automation,Built to catch,A1-v1,True,overstates automation
+before,overstated_automation,Built to catch,A1-v2,True,overstates automation
+before,overstated_automation,Built to catch,A2-v1,True,overstates automation
+before,overstated_automation,Built to catch,A2-v2,True,overstates automation
+before,overstated_automation,Built to catch,A3-v1,True,overstates automation
+before,overstated_automation,Built to catch,A3-v2,True,overstates automation
+before,overstated_automation,Built to catch,A4-v1,True,overstates automation
+before,overstated_automation,Built to catch,A4-v2,True,overstates automation
+before,overstated_automation,Built to catch,A5-v1,True,overstates automation
+before,overstated_automation,Built to catch,A5-v2,True,overstates automation
+before,overstated_automation,Built to catch,S1-v1,True,overstates automation
+before,overstated_automation,Built to catch,S1-v2,True,overstates automation
+before,overstated_automation,Built to catch,S2-v1,True,overstates automation
+before,overstated_automation,Built to catch,S2-v2,True,overstates automation
+before,approved_number_new_claim,Gaps found,A1-v1,False,intro is 154 characters (limit 150)
+before,approved_number_new_claim,Gaps found,A1-v2,False,
+before,approved_number_new_claim,Gaps found,A2-v1,False,
+before,approved_number_new_claim,Gaps found,A2-v2,False,
+before,approved_number_new_claim,Gaps found,A3-v1,False,
+before,approved_number_new_claim,Gaps found,A3-v2,False,
+before,approved_number_new_claim,Gaps found,A4-v1,False,intro is 153 characters (limit 150)
+before,approved_number_new_claim,Gaps found,A4-v2,False,
+before,approved_number_new_claim,Gaps found,A5-v1,False,
+before,approved_number_new_claim,Gaps found,A5-v2,False,
+before,approved_number_new_claim,Gaps found,S1-v1,False,body is 169 characters (limit 160)
+before,approved_number_new_claim,Gaps found,S1-v2,False,
+before,approved_number_new_claim,Gaps found,S2-v1,False,body is 165 characters (limit 160)
+before,approved_number_new_claim,Gaps found,S2-v2,False,
+before,number_in_words,Gaps found,A1-v1,False,intro is 154 characters (limit 150)
+before,number_in_words,Gaps found,A1-v2,False,
+before,number_in_words,Gaps found,A2-v1,False,
+before,number_in_words,Gaps found,A2-v2,False,
+before,number_in_words,Gaps found,A3-v1,False,
+before,number_in_words,Gaps found,A3-v2,False,
+before,number_in_words,Gaps found,A4-v1,False,intro is 153 characters (limit 150)
+before,number_in_words,Gaps found,A4-v2,False,
+before,number_in_words,Gaps found,A5-v1,False,
+before,number_in_words,Gaps found,A5-v2,False,
+before,number_in_words,Gaps found,S1-v1,False,body is 163 characters (limit 160)
+before,number_in_words,Gaps found,S1-v2,False,
+before,number_in_words,Gaps found,S2-v1,False,body is 165 characters (limit 160)
+before,number_in_words,Gaps found,S2-v2,False,body is 163 characters (limit 160)
+before,fresh_reused_number,Fresh phrasings,A1-v1,False,intro is 163 characters (limit 150)
+before,fresh_reused_number,Fresh phrasings,A1-v2,False,
+before,fresh_reused_number,Fresh phrasings,A2-v1,False,intro is 156 characters (limit 150)
+before,fresh_reused_number,Fresh phrasings,A2-v2,False,
+before,fresh_reused_number,Fresh phrasings,A3-v1,False,
+before,fresh_reused_number,Fresh phrasings,A3-v2,False,
+before,fresh_reused_number,Fresh phrasings,A4-v1,False,intro is 162 characters (limit 150)
+before,fresh_reused_number,Fresh phrasings,A4-v2,False,
+before,fresh_reused_number,Fresh phrasings,A5-v1,False,intro is 157 characters (limit 150)
+before,fresh_reused_number,Fresh phrasings,A5-v2,False,
+before,fresh_reused_number,Fresh phrasings,S1-v1,False,
+before,fresh_reused_number,Fresh phrasings,S1-v2,False,
+before,fresh_reused_number,Fresh phrasings,S2-v1,False,body is 174 characters (limit 160)
+before,fresh_reused_number,Fresh phrasings,S2-v2,False,body is 170 characters (limit 160)
+before,fresh_number_in_words,Fresh phrasings,A1-v1,False,intro is 170 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,A1-v2,False,
+before,fresh_number_in_words,Fresh phrasings,A2-v1,False,intro is 151 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,A2-v2,False,intro is 154 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,A3-v1,False,
+before,fresh_number_in_words,Fresh phrasings,A3-v2,False,
+before,fresh_number_in_words,Fresh phrasings,A4-v1,False,intro is 169 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,A4-v2,False,
+before,fresh_number_in_words,Fresh phrasings,A5-v1,False,intro is 152 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,A5-v2,False,intro is 151 characters (limit 150)
+before,fresh_number_in_words,Fresh phrasings,S1-v1,False,body is 166 characters (limit 160)
+before,fresh_number_in_words,Fresh phrasings,S1-v2,False,
+before,fresh_number_in_words,Fresh phrasings,S2-v1,False,body is 181 characters (limit 160)
+before,fresh_number_in_words,Fresh phrasings,S2-v2,False,body is 177 characters (limit 160)
+before,superlative,Needs a person,A1-v1,False,intro is 178 characters (limit 150)
+before,superlative,Needs a person,A1-v2,False,
+before,superlative,Needs a person,A2-v1,False,intro is 163 characters (limit 150)
+before,superlative,Needs a person,A2-v2,False,intro is 165 characters (limit 150)
+before,superlative,Needs a person,A3-v1,False,intro is 156 characters (limit 150)
+before,superlative,Needs a person,A3-v2,False,
+before,superlative,Needs a person,A4-v1,False,intro is 177 characters (limit 150)
+before,superlative,Needs a person,A4-v2,False,
+before,superlative,Needs a person,A5-v1,False,intro is 164 characters (limit 150)
+before,superlative,Needs a person,A5-v2,False,intro is 162 characters (limit 150)
+before,superlative,Needs a person,S1-v1,False,body is 177 characters (limit 160)
+before,superlative,Needs a person,S1-v2,False,body is 167 characters (limit 160)
+before,superlative,Needs a person,S2-v1,False,body is 189 characters (limit 160)
+before,superlative,Needs a person,S2-v2,False,body is 180 characters (limit 160)
+before,absolute_promise,Needs a person,A1-v1,False,intro is 169 characters (limit 150)
+before,absolute_promise,Needs a person,A1-v2,False,
+before,absolute_promise,Needs a person,A2-v1,False,
+before,absolute_promise,Needs a person,A2-v2,False,intro is 156 characters (limit 150)
+before,absolute_promise,Needs a person,A3-v1,False,intro is 153 characters (limit 150)
+before,absolute_promise,Needs a person,A3-v2,False,
+before,absolute_promise,Needs a person,A4-v1,False,intro is 168 characters (limit 150)
+before,absolute_promise,Needs a person,A4-v2,False,
+before,absolute_promise,Needs a person,A5-v1,False,
+before,absolute_promise,Needs a person,A5-v2,False,intro is 153 characters (limit 150)
+before,absolute_promise,Needs a person,S1-v1,False,body is 174 characters (limit 160)
+before,absolute_promise,Needs a person,S1-v2,False,
+before,absolute_promise,Needs a person,S2-v1,False,body is 180 characters (limit 160)
+before,absolute_promise,Needs a person,S2-v2,False,body is 177 characters (limit 160)

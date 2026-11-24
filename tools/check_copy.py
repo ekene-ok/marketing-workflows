@@ -1,7 +1,7 @@
 """Hard checks on customer-facing copy (ads and in-app messages).
 
 Input: a JSON file with a list of variants, each {"id", "format", "fields": {field: text}}.
-Checks: character limits, banned words, unapproved numbers, dashes, exclamation marks in
+Checks: character limits, banned words, numbers that are not approved proof points (checked with the\nword that gives them meaning, so an approved number cannot be reused in a new claim), numbers written in words, dashes, exclamation marks in
 headlines/titles, and required wording for security and AI claims.
 Usage: python tools/check_copy.py path/to/variants.json
 """
@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from tools.common import BANNED, LIMITS, numbers_in, approved_numbers
+from tools.common import BANNED, LIMITS, NUMBER_WORDS, approved_claims, claims_in
 
 
 def check_variant(v: dict, allowed: set[str]) -> list[str]:
@@ -27,9 +27,11 @@ def check_variant(v: dict, allowed: set[str]) -> list[str]:
     for w in BANNED:
         if re.search(rf"\b{re.escape(w)}\b", low):
             problems.append(f"banned word: '{w}'")
-    for n in numbers_in(all_text):
-        if n not in allowed:
-            problems.append(f"unapproved number: {n}")
+    for raw, key in claims_in(all_text):
+        if key not in allowed:
+            problems.append(f"unapproved number: {raw} ('{key}' is not an approved proof point)")
+    for w in NUMBER_WORDS.findall(all_text):
+        problems.append(f"number written in words: '{w}' (use an approved proof point instead)")
     if "\u2014" in all_text or "\u2013" in all_text:
         problems.append("contains an em or en dash")
     if re.search(r"\bsecur(e|ity)\b", low) and "SOC 2 Type II" not in all_text:
@@ -43,7 +45,7 @@ def check_variant(v: dict, allowed: set[str]) -> list[str]:
 
 def check_file(path: str) -> list[dict]:
     variants = json.loads(Path(path).read_text())
-    allowed = approved_numbers()
+    allowed = approved_claims()
     return [{"id": v["id"], "passed": not (p := check_variant(v, allowed)), "problems": p} for v in variants]
 
 

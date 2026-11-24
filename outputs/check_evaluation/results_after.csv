@@ -1,0 +1,211 @@
+label,case,group,variant,flagged,problems
+after,clean,Clean copy,A1-v1,False,
+after,clean,Clean copy,A1-v2,False,
+after,clean,Clean copy,A2-v1,False,
+after,clean,Clean copy,A2-v2,False,
+after,clean,Clean copy,A3-v1,False,
+after,clean,Clean copy,A3-v2,False,
+after,clean,Clean copy,A4-v1,False,
+after,clean,Clean copy,A4-v2,False,
+after,clean,Clean copy,A5-v1,False,
+after,clean,Clean copy,A5-v2,False,
+after,clean,Clean copy,S1-v1,False,
+after,clean,Clean copy,S1-v2,False,
+after,clean,Clean copy,S2-v1,False,
+after,clean,Clean copy,S2-v2,False,
+after,too_long,Built to catch,A1-v1,True,intro is 167 characters (limit 150)
+after,too_long,Built to catch,A1-v2,True,intro is 177 characters (limit 150)
+after,too_long,Built to catch,A2-v1,True,intro is 160 characters (limit 150)
+after,too_long,Built to catch,A2-v2,True,intro is 154 characters (limit 150)
+after,too_long,Built to catch,A3-v1,True,intro is 151 characters (limit 150)
+after,too_long,Built to catch,A3-v2,True,intro is 183 characters (limit 150)
+after,too_long,Built to catch,A4-v1,True,intro is 166 characters (limit 150)
+after,too_long,Built to catch,A4-v2,True,intro is 173 characters (limit 150)
+after,too_long,Built to catch,A5-v1,True,intro is 161 characters (limit 150)
+after,too_long,Built to catch,A5-v2,True,intro is 151 characters (limit 150)
+after,too_long,Built to catch,S1-v1,True,body is 172 characters (limit 160)
+after,too_long,Built to catch,S1-v2,True,body is 164 characters (limit 160)
+after,too_long,Built to catch,S2-v1,True,body is 178 characters (limit 160)
+after,too_long,Built to catch,S2-v2,True,body is 175 characters (limit 160)
+after,banned_word,Built to catch,A1-v1,True,intro is 155 characters (limit 150); banned word: 'seamless'
+after,banned_word,Built to catch,A1-v2,True,banned word: 'revolutionary'
+after,banned_word,Built to catch,A2-v1,True,intro is 153 characters (limit 150); banned word: 'game-changing'
+after,banned_word,Built to catch,A2-v2,True,banned word: 'best-in-class'
+after,banned_word,Built to catch,A3-v1,True,banned word: 'cutting-edge'
+after,banned_word,Built to catch,A3-v2,True,banned word: 'supercharge'
+after,banned_word,Built to catch,A4-v1,True,intro is 152 characters (limit 150); banned word: 'unlock'
+after,banned_word,Built to catch,A4-v2,True,banned word: 'guaranteed'
+after,banned_word,Built to catch,A5-v1,True,banned word: 'risk-free'
+after,banned_word,Built to catch,A5-v2,True,banned word: 'act now'
+after,banned_word,Built to catch,S1-v1,True,body is 163 characters (limit 160); banned word: 'last chance'
+after,banned_word,Built to catch,S1-v2,True,banned word: 'game changer'
+after,banned_word,Built to catch,S2-v1,True,body is 166 characters (limit 160); banned word: 'seamless'
+after,banned_word,Built to catch,S2-v2,True,body is 168 characters (limit 160); banned word: 'revolutionary'
+after,invented_number,Built to catch,A1-v1,True,intro is 153 characters (limit 150); unapproved number: 10 ('10 hour' is not an approved proof point)
+after,invented_number,Built to catch,A1-v2,True,unapproved number: 500 ('500 firm' is not an approved proof point)
+after,invented_number,Built to catch,A2-v1,True,unapproved number: 3 ('3 x' is not an approved proof point)
+after,invented_number,Built to catch,A2-v2,True,unapproved number: 70% ('70%' is not an approved proof point)
+after,invented_number,Built to catch,A3-v1,True,unapproved number: 4.8 ('4.8 by' is not an approved proof point)
+after,invented_number,Built to catch,A3-v2,True,unapproved number: 15 ('15 minute' is not an approved proof point)
+after,invented_number,Built to catch,A4-v1,True,intro is 152 characters (limit 150); unapproved number: 10 ('10 hour' is not an approved proof point)
+after,invented_number,Built to catch,A4-v2,True,unapproved number: 500 ('500 firm' is not an approved proof point)
+after,invented_number,Built to catch,A5-v1,True,unapproved number: 3 ('3 x' is not an approved proof point)
+after,invented_number,Built to catch,A5-v2,True,unapproved number: 70% ('70%' is not an approved proof point)
+after,invented_number,Built to catch,S1-v1,True,body is 162 characters (limit 160); unapproved number: 4.8 ('4.8 by' is not an approved proof point)
+after,invented_number,Built to catch,S1-v2,True,unapproved number: 15 ('15 minute' is not an approved proof point)
+after,invented_number,Built to catch,S2-v1,True,body is 164 characters (limit 160); unapproved number: 10 ('10 hour' is not an approved proof point)
+after,invented_number,Built to catch,S2-v2,True,unapproved number: 500 ('500 firm' is not an approved proof point)
+after,dash,Built to catch,A1-v1,True,intro is 156 characters (limit 150); contains an em or en dash
+after,dash,Built to catch,A1-v2,True,contains an em or en dash
+after,dash,Built to catch,A2-v1,True,contains an em or en dash
+after,dash,Built to catch,A2-v2,True,contains an em or en dash
+after,dash,Built to catch,A3-v1,True,contains an em or en dash
+after,dash,Built to catch,A3-v2,True,contains an em or en dash
+after,dash,Built to catch,A4-v1,True,intro is 155 characters (limit 150); contains an em or en dash
+after,dash,Built to catch,A4-v2,True,contains an em or en dash
+after,dash,Built to catch,A5-v1,True,contains an em or en dash
+after,dash,Built to catch,A5-v2,True,contains an em or en dash
+after,dash,Built to catch,S1-v1,True,body is 161 characters (limit 160); contains an em or en dash
+after,dash,Built to catch,S1-v2,True,contains an em or en dash
+after,dash,Built to catch,S2-v1,True,body is 167 characters (limit 160); contains an em or en dash
+after,dash,Built to catch,S2-v2,True,body is 164 characters (limit 160); contains an em or en dash
+after,exclamation,Built to catch,A1-v1,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A1-v2,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A2-v1,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A2-v2,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A3-v1,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A3-v2,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A4-v1,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A4-v2,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A5-v1,True,headline uses an exclamation mark
+after,exclamation,Built to catch,A5-v2,True,headline uses an exclamation mark
+after,exclamation,Built to catch,S1-v1,True,title is 54 characters (limit 50); title uses an exclamation mark
+after,exclamation,Built to catch,S1-v2,True,title uses an exclamation mark
+after,exclamation,Built to catch,S2-v1,True,title uses an exclamation mark
+after,exclamation,Built to catch,S2-v2,True,title uses an exclamation mark
+after,security_wording,Built to catch,A1-v1,True,intro is 155 characters (limit 150); mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A1-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A2-v1,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A2-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A3-v1,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A3-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A4-v1,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A4-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A5-v1,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,A5-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,S1-v1,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,S1-v2,True,mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,S2-v1,True,body is 166 characters (limit 160); mentions security without 'SOC 2 Type II'
+after,security_wording,Built to catch,S2-v2,True,body is 163 characters (limit 160); mentions security without 'SOC 2 Type II'
+after,ai_wording,Built to catch,A1-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A1-v2,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A2-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A2-v2,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A3-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A3-v2,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A4-v1,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A4-v2,True,mentions security without 'SOC 2 Type II'; mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A5-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,A5-v2,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,S1-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,S1-v2,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,S2-v1,True,mentions AI without 'AI-assisted'
+after,ai_wording,Built to catch,S2-v2,True,mentions AI without 'AI-assisted'
+after,overstated_automation,Built to catch,A1-v1,True,overstates automation
+after,overstated_automation,Built to catch,A1-v2,True,overstates automation
+after,overstated_automation,Built to catch,A2-v1,True,overstates automation
+after,overstated_automation,Built to catch,A2-v2,True,overstates automation
+after,overstated_automation,Built to catch,A3-v1,True,overstates automation
+after,overstated_automation,Built to catch,A3-v2,True,overstates automation
+after,overstated_automation,Built to catch,A4-v1,True,overstates automation
+after,overstated_automation,Built to catch,A4-v2,True,overstates automation
+after,overstated_automation,Built to catch,A5-v1,True,overstates automation
+after,overstated_automation,Built to catch,A5-v2,True,overstates automation
+after,overstated_automation,Built to catch,S1-v1,True,overstates automation
+after,overstated_automation,Built to catch,S1-v2,True,overstates automation
+after,overstated_automation,Built to catch,S2-v1,True,overstates automation
+after,overstated_automation,Built to catch,S2-v2,True,overstates automation
+after,approved_number_new_claim,Gaps found,A1-v1,True,intro is 154 characters (limit 150); unapproved number: 50% ('50%' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A1-v2,True,unapproved number: 4 ('4 hour' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A2-v1,True,unapproved number: 92% ('92% firm' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A2-v2,True,unapproved number: 30 ('30 minute' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A3-v1,False,
+after,approved_number_new_claim,Gaps found,A3-v2,True,unapproved number: $18 ('$18 les' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A4-v1,True,intro is 153 characters (limit 150); unapproved number: 50% ('50%' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A4-v2,True,unapproved number: 4 ('4 hour' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A5-v1,True,unapproved number: 92% ('92% firm' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,A5-v2,True,unapproved number: 30 ('30 minute' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,S1-v1,False,body is 169 characters (limit 160)
+after,approved_number_new_claim,Gaps found,S1-v2,True,unapproved number: $18 ('$18 les' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,S2-v1,True,body is 165 characters (limit 160); unapproved number: 50% ('50%' is not an approved proof point)
+after,approved_number_new_claim,Gaps found,S2-v2,True,unapproved number: 4 ('4 hour' is not an approved proof point)
+after,number_in_words,Gaps found,A1-v1,True,intro is 154 characters (limit 150); number written in words: 'ten' (use an approved proof point instead)
+after,number_in_words,Gaps found,A1-v2,True,number written in words: 'Twice' (use an approved proof point instead)
+after,number_in_words,Gaps found,A2-v1,True,number written in words: 'half' (use an approved proof point instead)
+after,number_in_words,Gaps found,A2-v2,True,number written in words: 'thousands' (use an approved proof point instead)
+after,number_in_words,Gaps found,A3-v1,True,number written in words: 'fifteen' (use an approved proof point instead)
+after,number_in_words,Gaps found,A3-v2,True,number written in words: 'Three' (use an approved proof point instead)
+after,number_in_words,Gaps found,A4-v1,True,intro is 153 characters (limit 150); number written in words: 'ten' (use an approved proof point instead)
+after,number_in_words,Gaps found,A4-v2,True,number written in words: 'Twice' (use an approved proof point instead)
+after,number_in_words,Gaps found,A5-v1,True,number written in words: 'half' (use an approved proof point instead)
+after,number_in_words,Gaps found,A5-v2,True,number written in words: 'thousands' (use an approved proof point instead)
+after,number_in_words,Gaps found,S1-v1,True,body is 163 characters (limit 160); number written in words: 'fifteen' (use an approved proof point instead)
+after,number_in_words,Gaps found,S1-v2,True,number written in words: 'Three' (use an approved proof point instead)
+after,number_in_words,Gaps found,S2-v1,True,body is 165 characters (limit 160); number written in words: 'ten' (use an approved proof point instead)
+after,number_in_words,Gaps found,S2-v2,True,body is 163 characters (limit 160); number written in words: 'Twice' (use an approved proof point instead)
+after,fresh_reused_number,Fresh phrasings,A1-v1,True,intro is 163 characters (limit 150); unapproved number: $12 ('$12 month' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A1-v2,True,unapproved number: 50 ('50 or' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A2-v1,True,intro is 156 characters (limit 150); unapproved number: 4 ('4 minute' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A2-v2,True,unapproved number: 92% ('92% faster' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A3-v1,True,unapproved number: 2 ('2 day' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A3-v2,False,
+after,fresh_reused_number,Fresh phrasings,A4-v1,True,intro is 162 characters (limit 150); unapproved number: $12 ('$12 month' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A4-v2,True,unapproved number: 50 ('50 or' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A5-v1,True,intro is 157 characters (limit 150); unapproved number: 4 ('4 minute' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,A5-v2,True,unapproved number: 92% ('92% faster' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,S1-v1,True,unapproved number: 2 ('2 day' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,S1-v2,False,
+after,fresh_reused_number,Fresh phrasings,S2-v1,True,body is 174 characters (limit 160); unapproved number: $12 ('$12 month' is not an approved proof point)
+after,fresh_reused_number,Fresh phrasings,S2-v2,True,body is 170 characters (limit 160); unapproved number: 50 ('50 or' is not an approved proof point)
+after,fresh_number_in_words,Fresh phrasings,A1-v1,True,intro is 170 characters (limit 150); number written in words: 'three' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A1-v2,False,
+after,fresh_number_in_words,Fresh phrasings,A2-v1,True,intro is 151 characters (limit 150); number written in words: 'Seven' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A2-v2,True,intro is 154 characters (limit 150); number written in words: 'half' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A3-v1,True,number written in words: 'Hundreds' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A3-v2,False,
+after,fresh_number_in_words,Fresh phrasings,A4-v1,True,intro is 169 characters (limit 150); number written in words: 'three' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A4-v2,False,
+after,fresh_number_in_words,Fresh phrasings,A5-v1,True,intro is 152 characters (limit 150); number written in words: 'Seven' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,A5-v2,True,intro is 151 characters (limit 150); number written in words: 'half' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,S1-v1,True,body is 166 characters (limit 160); number written in words: 'Hundreds' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,S1-v2,False,
+after,fresh_number_in_words,Fresh phrasings,S2-v1,True,body is 181 characters (limit 160); number written in words: 'three' (use an approved proof point instead)
+after,fresh_number_in_words,Fresh phrasings,S2-v2,False,body is 177 characters (limit 160)
+after,superlative,Needs a person,A1-v1,False,intro is 178 characters (limit 150)
+after,superlative,Needs a person,A1-v2,False,
+after,superlative,Needs a person,A2-v1,False,intro is 163 characters (limit 150)
+after,superlative,Needs a person,A2-v2,False,intro is 165 characters (limit 150)
+after,superlative,Needs a person,A3-v1,False,intro is 156 characters (limit 150)
+after,superlative,Needs a person,A3-v2,False,
+after,superlative,Needs a person,A4-v1,False,intro is 177 characters (limit 150)
+after,superlative,Needs a person,A4-v2,False,
+after,superlative,Needs a person,A5-v1,False,intro is 164 characters (limit 150)
+after,superlative,Needs a person,A5-v2,False,intro is 162 characters (limit 150)
+after,superlative,Needs a person,S1-v1,False,body is 177 characters (limit 160)
+after,superlative,Needs a person,S1-v2,False,body is 167 characters (limit 160)
+after,superlative,Needs a person,S2-v1,False,body is 189 characters (limit 160)
+after,superlative,Needs a person,S2-v2,False,body is 180 characters (limit 160)
+after,absolute_promise,Needs a person,A1-v1,False,intro is 169 characters (limit 150)
+after,absolute_promise,Needs a person,A1-v2,False,
+after,absolute_promise,Needs a person,A2-v1,False,
+after,absolute_promise,Needs a person,A2-v2,False,intro is 156 characters (limit 150)
+after,absolute_promise,Needs a person,A3-v1,False,intro is 153 characters (limit 150)
+after,absolute_promise,Needs a person,A3-v2,False,
+after,absolute_promise,Needs a person,A4-v1,False,intro is 168 characters (limit 150)
+after,absolute_promise,Needs a person,A4-v2,False,
+after,absolute_promise,Needs a person,A5-v1,False,
+after,absolute_promise,Needs a person,A5-v2,False,intro is 153 characters (limit 150)
+after,absolute_promise,Needs a person,S1-v1,False,body is 174 characters (limit 160)
+after,absolute_promise,Needs a person,S1-v2,False,
+after,absolute_promise,Needs a person,S2-v1,False,body is 180 characters (limit 160)
+after,absolute_promise,Needs a person,S2-v2,False,body is 177 characters (limit 160)

@@ -1,0 +1,16 @@
+label,group,case,cases,flagged
+after,Clean copy,clean,14,0
+after,Built to catch,too_long,14,14
+after,Built to catch,banned_word,14,14
+after,Built to catch,invented_number,14,14
+after,Built to catch,dash,14,14
+after,Built to catch,exclamation,14,14
+after,Built to catch,security_wording,14,14
+after,Built to catch,ai_wording,14,14
+after,Built to catch,overstated_automation,14,14
+after,Gaps found,approved_number_new_claim,14,12
+after,Gaps found,number_in_words,14,14
+after,Fresh phrasings,fresh_reused_number,14,12
+after,Fresh phrasings,fresh_number_in_words,14,9
+after,Needs a person,superlative,14,0
+after,Needs a person,absolute_promise,14,0
