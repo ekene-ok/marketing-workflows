@@ -46,7 +46,7 @@ Full history: [`outputs/run_log.md`](outputs/run_log.md). The point is not that 
 
 **The point of the checks is to let a reviewer stop checking rules and spend their time on claims.** To see how far that can be trusted, I seeded known problems into the 14 approved variants from the example runs and counted what the checks flagged ([`tools/eval_checks.py`](tools/eval_checks.py)).
 
-![The checks now catch most invented claims, but claims still need a person](charts/01_what_the_checks_catch.png)
+![The fixed checks now catch most invented numbers in AI copy](charts/01_what_the_checks_catch.png)
 
 - **The rules the checks were built for are fully covered:** 112 of 112 seeded rule breaks caught (length, banned words, invented numbers, dashes, exclamation marks, security and AI wording, overstated automation), with no false alarms on the 14 clean variants
 - **The test found a real gap, now fixed:** the original check approved numbers on their own, so "Cut admin by 50%" passed because 50 appears in "5 to 50 staff", and "Save ten hours a week" passed because the number was written in words. Both kinds got through 0 of 28 times. The checker now approves each number together with the word that gives it meaning, and flags numbers written in words: 26 of 28 caught, and 21 of 28 on fresh phrasings written after the fix
