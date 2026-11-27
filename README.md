@@ -1,8 +1,36 @@
 # Marketing Workflows: Reusable AI Workflows for a B2B SaaS Marketing Team
 
-A shared library of AI marketing workflows, organised so any AI coding assistant can run them consistently and a whole team can improve them over time. Business knowledge lives in one place, each task is a reusable skill, agents chain skills into pipelines, and Python checks catch the mistakes AI tends to make before anything reaches a customer.
+**In one line:** a shared set of AI writing workflows for a marketing team, with automatic checks that catch the mistakes AI makes before a person reviews the work.
 
-Built around **Tallyroot**, a fictional practice management software company for small accounting firms. Everything here is generic and invented for demonstration.
+Many teams use AI to draft ads, landing pages and messages, but the prompts live in personal notes and the output needs careful checking. This repo shows a better setup, using a fictional accounting software company, Tallyroot. The business knowledge is written once, each task is a reusable step, and simple code checks the rules every time.
+
+## What it does
+
+Four ready-made workflows, each ending with a person approving the result:
+
+| Workflow | What it produces |
+|---|---|
+| Ad variants | A short, ranked list of ad options from a brief |
+| Landing page audit | A check that a page delivers what the ad promised, with fixes |
+| Release to in-app | Product update messages tailored to each customer group |
+| Morning digest | A short daily note on campaigns behaving unusually |
+
+## What I found
+
+- **The checks caught all 112 rule breaks I planted** (too long, banned words, made-up numbers and more), with no false alarms
+- **Testing found a real gap, now fixed.** Made-up numbers like "cut admin by 50%" slipped through at first; now 26 of 28 are caught
+- **Some things still need a person,** such as a real number used in the wrong claim, or promises like "the easiest portal"
+
+![The fixed checks now catch most invented numbers in AI copy](charts/01_what_the_checks_catch.png)
+
+**How to read it:** each row is a kind of made-up claim planted in AI-written copy, and the bar is the share the checks now catch. The last row (superlatives and promises) still needs a person.
+
+## Why it matters
+
+A reviewer stops checking the mechanical rules and spends their time on what matters: whether each claim is true. For a team writing 40 ad variants a week, that's about 70 hours a year back.
+
+<details>
+<summary><b>The full analysis: method, detail and how to run it</b> (for technical readers)</summary>
 
 ## Why a repo instead of a prompt doc
 
@@ -45,8 +73,6 @@ Full history: [`outputs/run_log.md`](outputs/run_log.md). The point is not that 
 ## What it's worth
 
 **The point of the checks is to let a reviewer stop checking rules and spend their time on claims.** To see how far that can be trusted, I seeded known problems into the 14 approved variants from the example runs and counted what the checks flagged ([`tools/eval_checks.py`](tools/eval_checks.py)).
-
-![The fixed checks now catch most invented numbers in AI copy](charts/01_what_the_checks_catch.png)
 
 - **The rules the checks were built for are fully covered:** 112 of 112 seeded rule breaks caught (length, banned words, invented numbers, dashes, exclamation marks, security and AI wording, overstated automation), with no false alarms on the 14 clean variants
 - **The test found a real gap, now fixed:** the original check approved numbers on their own, so "Cut admin by 50%" passed because 50 appears in "5 to 50 staff", and "Save ten hours a week" passed because the number was written in words. Both kinds got through 0 of 28 times. The checker now approves each number together with the word that gives it meaning, and flags numbers written in words: 26 of 28 caught, and 21 of 28 on fresh phrasings written after the fix
@@ -105,3 +131,5 @@ python -m pytest -q
 ## Licence
 
 MIT. The company, people and data are fictional.
+
+</details>
